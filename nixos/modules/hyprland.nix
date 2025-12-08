@@ -7,7 +7,8 @@
   environment.systemPackages = with pkgs; [
     alacritty
     waybar
-    rofi 
+    rofi
+    hyprpaper
   ];
 
   fonts.packages = with pkgs; [

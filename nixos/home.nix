@@ -9,6 +9,7 @@ in
   home.homeDirectory = "/home/diego";
 
   home.file.".config/hypr/hyprland.conf".source = "${dotfiles_folder}/hypr/hyprland.conf";
+  home.file.".config/hypr/hyprpaper.conf".source = "${dotfiles_folder}/hypr/hyprpaper.conf";
   
   programs.firefox.enable = true;
   programs.vscode.enable = true;
