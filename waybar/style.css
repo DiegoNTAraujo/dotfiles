@@ -1,0 +1,40 @@
+* {
+    font-size: 12px;
+    font-family: sans-serif, "Font Awesome 7 Free";
+}
+
+#window,
+#tray,
+#pulseaudio,
+#power-profiles-daemon,
+#battery,
+#clock {
+    background-color: #282828;
+    color: #ebdbb2;
+    border: 2px solid #ebdbb2;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#waybar {
+    background-color: transparent;
+}
+
+#workspaces {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 15px;
+}
+
+#workspaces button {
+    color: #ebdbb2;
+    padding: 5px 10px;
+}
+
+#battery.plugged {
+    color: #98971a;
+}
+
+#battery.critical {
+    color: #cc241d;
+}

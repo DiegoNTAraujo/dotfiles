@@ -1,0 +1,68 @@
+{
+    "width": 1880,
+    "height": 40,
+    "margin-top": 8,
+    "spacing": 5,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "power-profiles-daemon",
+        "battery",
+        "clock"
+    ],
+    "tray": {
+        "spacing": 10
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} | {format_source}",
+        "format-muted": "0%  {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "0% ",
+        "format-icons": {
+            "headset": "",
+            "headphone": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip": true,
+        "tooltip-format": "{profile}",
+        "format-icons": {
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        }
+    },
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% ",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "clock": {
+        "format": "{:%H:%M} ",
+        "tooltip-format": "{:%A, %B %d, %Y }"
+    }
+}
