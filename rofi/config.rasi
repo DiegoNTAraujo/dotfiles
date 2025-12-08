@@ -1,0 +1,69 @@
+configuration {
+    display-drun: "Applications:";
+    show-icons: true;
+}
+
+@theme "/dev/null"
+
+* {
+    bg: #282828;
+    fg: #ebdbb2;
+}
+
+window {
+    width: 25%;
+    background-color: @bg;
+    border: 2px solid;
+    border-color: @fg;
+    border-radius: 15;
+}
+
+prompt {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 12 0 0 12;
+}
+
+entry {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 12;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg;
+}
+
+element {
+    background-color: transparent;
+    text-color: @fg;
+    padding: 5;
+}
+
+element selected {
+    background-color: @fg;
+    text-color: @bg;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 24;
+    padding: 5;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    lines: 7;
+}

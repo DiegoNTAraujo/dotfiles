@@ -12,6 +12,7 @@ in
   home.file.".config/hypr/hyprpaper.conf".source = "${dotfiles_folder}/hypr/hyprpaper.conf";
   home.file.".config/waybar/config.jsonc".source = "${dotfiles_folder}/waybar/config.jsonc";
   home.file.".config/waybar/style.css".source = "${dotfiles_folder}/waybar/style.css";
+  home.file.".config/rofi/config.rasi".source = "${dotfiles_folder}/rofi/config.rasi";
   
   programs.firefox.enable = true;
   programs.vscode.enable = true;
