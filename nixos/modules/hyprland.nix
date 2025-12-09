@@ -11,6 +11,7 @@
     waybar
     rofi
     hyprpaper
+    hyprshot
     brightnessctl
     pavucontrol
     networkmanagerapplet
