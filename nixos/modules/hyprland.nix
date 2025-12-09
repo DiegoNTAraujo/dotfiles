@@ -13,6 +13,7 @@
     hyprlock
     hypridle
     hyprpaper
+    hyprsunset
     hyprshot
     brightnessctl
     pavucontrol
