@@ -29,6 +29,11 @@ in
       package = pkgs.tela-circle-icon-theme;
       name = "Tela-circle-dark";
     };
+    cursorTheme = {
+      package = pkgs.capitaine-cursors;
+      name = "capitaine-cursors";
+      size = 16;
+    };
   };
 
   home.stateVersion = "25.11";
