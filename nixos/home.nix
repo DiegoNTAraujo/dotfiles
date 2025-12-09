@@ -41,7 +41,6 @@ in
     fastfetch
     python314
     jetbrains.pycharm-community-bin
-    steam
   ];
   
   home.stateVersion = "25.11";
