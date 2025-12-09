@@ -10,6 +10,7 @@
     alacritty
     waybar
     rofi
+    hyprlock
     hyprpaper
     hyprshot
     brightnessctl
