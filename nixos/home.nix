@@ -19,5 +19,13 @@ in
   programs.firefox.enable = true;
   programs.vscode.enable = true;
 
+  gtk = {
+    enable = true;
+    theme = {
+      package = pkgs.gruvbox-gtk-theme;
+      name = "Gruvbox-Dark"; 
+    };
+  };
+
   home.stateVersion = "25.11";
 }
