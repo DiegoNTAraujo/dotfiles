@@ -104,8 +104,8 @@
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Steam installed via Home Manager would fail to start,
-  # so it needs to be enabled system-wide instead.
+  # Steam was crashing on startup when installed through Home Manager.
+  # Enabling it system-wide fixes the issue.
   programs.steam.enable = true;
 
   # This option defines the first version of NixOS you have installed on this particular machine,
