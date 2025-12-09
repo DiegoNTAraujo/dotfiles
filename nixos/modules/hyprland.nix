@@ -11,6 +11,7 @@
     waybar
     rofi
     hyprlock
+    hypridle
     hyprpaper
     hyprshot
     brightnessctl
