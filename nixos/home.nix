@@ -25,6 +25,10 @@ in
       package = pkgs.gruvbox-gtk-theme;
       name = "Gruvbox-Dark"; 
     };
+    iconTheme = {
+      package = pkgs.tela-circle-icon-theme;
+      name = "Tela-circle-dark";
+    };
   };
 
   home.stateVersion = "25.11";
