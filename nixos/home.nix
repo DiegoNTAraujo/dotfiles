@@ -38,6 +38,8 @@ in
   programs.vscode.enable = true;
 
   home.packages = with pkgs; [
+    python314
+    jetbrains.pycharm-community-bin
     steam
   ];
   
