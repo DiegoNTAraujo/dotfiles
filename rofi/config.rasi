@@ -1,6 +1,7 @@
 configuration {
     display-drun: "Applications:";
     show-icons: true;
+    font: "JetBrainsMono Nerd Font Regular 12";
 }
 
 @theme "/dev/null"

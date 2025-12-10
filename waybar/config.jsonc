@@ -1,5 +1,5 @@
 {
-    "height": 30,
+    "height": 35,
     "spacing": 5,
     "modules-left": [
         "hyprland/workspaces"
