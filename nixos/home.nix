@@ -21,13 +21,6 @@ in
     jetbrains.pycharm-community-bin
   ];
 
-  gtk = {
-    iconTheme = {
-      package = pkgs.tela-circle-icon-theme;
-      name = "Tela-circle-dark";
-    };
-  };
-
   home.file.".config/hypr/hyprland.conf".source = "${dotfiles_folder}/hypr/hyprland.conf";
   home.file.".config/hypr/hyprlock.conf".source = "${dotfiles_folder}/hypr/hyprlock.conf";
   home.file.".config/hypr/hypridle.conf".source = "${dotfiles_folder}/hypr/hypridle.conf";
