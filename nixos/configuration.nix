@@ -8,9 +8,9 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./modules/nvidia.nix
-      ./modules/bluetooth.nix
-      ./modules/hyprland.nix
+      ./nixos-modules/nvidia.nix
+      ./nixos-modules/bluetooth.nix
+      ./nixos-modules/hyprland.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
