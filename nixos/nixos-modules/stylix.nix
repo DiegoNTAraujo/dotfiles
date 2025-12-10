@@ -21,4 +21,10 @@
     base0E = "#d3869b"; 
     base0F = "#d65d0e"; 
   };
+
+  stylix.cursor = {
+    package = pkgs.capitaine-cursors;
+    name = "capitaine-cursors";
+    size = 16;
+  };
 }

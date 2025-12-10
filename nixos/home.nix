@@ -26,11 +26,6 @@ in
       package = pkgs.tela-circle-icon-theme;
       name = "Tela-circle-dark";
     };
-    cursorTheme = {
-      package = pkgs.capitaine-cursors;
-      name = "capitaine-cursors";
-      size = 16;
-    };
   };
 
   home.file.".config/hypr/hyprland.conf".source = "${dotfiles_folder}/hypr/hyprland.conf";
