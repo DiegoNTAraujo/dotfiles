@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./hm-modules/dotfiles-link.nix
+    ./modules/home-manager/dotfiles.nix
   ];
 
   home.username = "diego";
