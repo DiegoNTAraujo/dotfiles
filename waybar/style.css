@@ -3,6 +3,7 @@
     font-family: sans-serif, "Font Awesome 7 Free";
 }
 
+#waybar,
 #window,
 #tray,
 #pulseaudio,
@@ -11,24 +12,11 @@
 #clock {
     background-color: #1e1e2e;
     color: #b4befe;
-    border: 2px solid #b4befe;
-    border-radius: 15px;
     padding: 5px 10px;
 }
 
-#waybar {
-    background-color: transparent;
-}
-
-#workspaces {
-    background-color: #1e1e2e;
-    border: 2px solid #b4befe;
-    border-radius: 15px;
-}
-
-#workspaces button {
-    color: #b4befe;
-    padding: 5px 10px;
+#workspaces button.active {
+    opacity: 0.5;
 }
 
 #battery.plugged {
