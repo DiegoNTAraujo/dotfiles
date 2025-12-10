@@ -6,8 +6,8 @@ configuration {
 @theme "/dev/null"
 
 * {
-    bg: #282828;
-    fg: #ebdbb2;
+    bg: #181825;
+    fg: #89b4fa;
 }
 
 window {
