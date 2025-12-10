@@ -8,6 +8,19 @@ in
   home.username = "diego";
   home.homeDirectory = "/home/diego";
 
+  programs.firefox.enable = true;
+
+  programs.alacritty.enable = true;
+  stylix.targets.alacritty.colors.enable = true;
+  
+  programs.vscode.enable = true;
+  programs.fastfetch.enable = true;
+
+  home.packages = with pkgs; [
+    python314
+    jetbrains.pycharm-community-bin
+  ];
+
   gtk = {
     iconTheme = {
       package = pkgs.tela-circle-icon-theme;
@@ -28,15 +41,6 @@ in
   home.file.".config/waybar/config.jsonc".source = "${dotfiles_folder}/waybar/config.jsonc";
   home.file.".config/waybar/style.css".source = "${dotfiles_folder}/waybar/style.css";
   home.file.".config/rofi/config.rasi".source = "${dotfiles_folder}/rofi/config.rasi";
-  
-  programs.firefox.enable = true;
-  programs.vscode.enable = true;
-
-  home.packages = with pkgs; [
-    fastfetch
-    python314
-    jetbrains.pycharm-community-bin
-  ];
   
   home.stateVersion = "25.11";
 }
