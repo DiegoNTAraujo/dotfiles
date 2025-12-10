@@ -9,9 +9,9 @@
 #power-profiles-daemon,
 #battery,
 #clock {
-    background-color: #282828;
-    color: #ebdbb2;
-    border: 2px solid #ebdbb2;
+    background-color: #1e1e2e;
+    color: #b4befe;
+    border: 2px solid #b4befe;
     border-radius: 15px;
     padding: 5px 10px;
 }
@@ -21,20 +21,20 @@
 }
 
 #workspaces {
-    background-color: #282828;
-    border: 2px solid #ebdbb2;
+    background-color: #1e1e2e;
+    border: 2px solid #b4befe;
     border-radius: 15px;
 }
 
 #workspaces button {
-    color: #ebdbb2;
+    color: #b4befe;
     padding: 5px 10px;
 }
 
 #battery.plugged {
-    color: #98971a;
+    color: #a6e3a1;
 }
 
 #battery.critical {
-    color: #cc241d;
+    color: #f38ba8;
 }
