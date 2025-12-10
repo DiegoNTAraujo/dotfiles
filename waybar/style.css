@@ -10,8 +10,8 @@
 #power-profiles-daemon,
 #battery,
 #clock {
-    background-color: #1e1e2e;
-    color: #b4befe;
+    background-color: #1A1B26;
+    color: #A9B1D6;
     padding: 5px 10px;
 }
 
@@ -20,9 +20,9 @@
 }
 
 #battery.plugged {
-    color: #a6e3a1;
+    color: #9ECE6A;
 }
 
 #battery.critical {
-    color: #f38ba8;
+    color: #9ECE6A;
 }
