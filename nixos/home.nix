@@ -9,11 +9,6 @@ in
   home.homeDirectory = "/home/diego";
 
   gtk = {
-    enable = true;
-    theme = {
-      package = pkgs.gruvbox-gtk-theme;
-      name = "Gruvbox-Dark"; 
-    };
     iconTheme = {
       package = pkgs.tela-circle-icon-theme;
       name = "Tela-circle-dark";

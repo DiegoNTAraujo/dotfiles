@@ -11,6 +11,7 @@
       ./nixos-modules/nvidia.nix
       ./nixos-modules/bluetooth.nix
       ./nixos-modules/hyprland.nix
+      ./nixos-modules/stylix.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
