@@ -50,7 +50,7 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-plugged": "{capacity}% ",
+        "format-plugged": "{capacity}% {icon}",
         "format-icons": [
             "",
             "",
