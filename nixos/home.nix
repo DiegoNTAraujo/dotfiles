@@ -9,10 +9,7 @@
   home.homeDirectory = "/home/diego";
 
   programs.firefox.enable = true;
-
   programs.alacritty.enable = true;
-  stylix.targets.alacritty.colors.enable = true;
-  
   programs.vscode.enable = true;
   programs.fastfetch.enable = true;
 
