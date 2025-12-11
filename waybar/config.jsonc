@@ -28,7 +28,7 @@
             "default": [
                 "",
                 "",
-                ""
+                " "
             ]
         },
         "on-click": "pavucontrol"
@@ -39,7 +39,7 @@
         "tooltip-format": "{profile}",
         "format-icons": {
             "performance": "",
-            "balanced": "",
+            "balanced": " ",
             "power-saver": ""
         }
     },
