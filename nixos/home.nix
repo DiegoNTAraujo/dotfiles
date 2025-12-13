@@ -17,6 +17,7 @@
   home.packages = with pkgs; [
     python314
     jetbrains.pycharm-community-bin
+    goverlay
   ];
 
   home.stateVersion = "25.11";
