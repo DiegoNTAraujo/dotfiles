@@ -10,8 +10,9 @@
 
   programs.firefox.enable = true;
   programs.alacritty.enable = true;
-  programs.vscode.enable = true;
   programs.fastfetch.enable = true;
+  programs.vscode.enable = true;
+  programs.mangohud.enable = true;
 
   home.packages = with pkgs; [
     python314
