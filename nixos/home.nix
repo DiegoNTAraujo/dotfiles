@@ -23,6 +23,7 @@
     python314
     jetbrains.pycharm-community-bin
     goverlay
+    vulkan-tools # Goverlay dependency
   ];
 
   home.stateVersion = "25.11";
