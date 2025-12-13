@@ -12,12 +12,7 @@
   programs.alacritty.enable = true;
   programs.fastfetch.enable = true;
   programs.vscode.enable = true;
-  programs.mangohud = {
-    enable = true;
-    # Sets environment variables so that
-    # MangoHud is started on any application that supports it.
-    enableSessionWide = true;
-  };
+  programs.mangohud.enable = true;
 
   home.packages = with pkgs; [
     python314
