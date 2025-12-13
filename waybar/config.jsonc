@@ -18,7 +18,7 @@
         "spacing": 10
     },
     "pulseaudio": {
-        "format": "{volume}% {icon} | {format_source}",
+        "format": "{volume}% {icon}  | {format_source}",
         "format-muted": "0%  {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "0% ",
@@ -28,18 +28,18 @@
             "default": [
                 "",
                 "",
-                " "
+                ""
             ]
         },
         "on-click": "pavucontrol"
     },
     "power-profiles-daemon": {
-        "format": "{icon}",
+        "format": "{icon} ",
         "tooltip": true,
         "tooltip-format": "{profile}",
         "format-icons": {
             "performance": "",
-            "balanced": " ",
+            "balanced": "",
             "power-saver": ""
         }
     },
@@ -49,8 +49,8 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-plugged": "{capacity}% {icon}",
+        "format": "{capacity}% {icon} ",
+        "format-plugged": "{capacity}% {icon} ",
         "format-icons": [
             "",
             "",
@@ -60,7 +60,7 @@
         ]
     },
     "clock": {
-        "format": "{:%H:%M} ",
-        "tooltip-format": "{:%A, %B %d, %Y }"
+        "format": "{:%H:%M}  ",
+        "tooltip-format": "{:%A, %B %d, %Y}  "
     }
 }
