@@ -12,6 +12,7 @@
       ./modules/nixos/bluetooth.nix
       ./modules/nixos/hyprland.nix
       ./modules/nixos/stylix.nix
+      ./modules/nixos/virtualization.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
