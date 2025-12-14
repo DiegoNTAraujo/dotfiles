@@ -21,6 +21,7 @@
   ];
 
   fonts.packages = with pkgs; [
-    font-awesome 
+    font-awesome
+    nerd-fonts.jetbrains-mono 
   ];
 }
