@@ -9,7 +9,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/nixos/nvidia.nix
+      ./modules/nixos/power-profiles.nix
       ./modules/nixos/bluetooth.nix
+      ./modules/nixos/blueman.nix
       ./modules/nixos/hyprland.nix
       ./modules/nixos/stylix.nix
       ./modules/nixos/virtualization.nix

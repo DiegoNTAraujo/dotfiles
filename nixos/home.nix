@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./modules/home-manager/dotfiles.nix
+    ./modules/home-manager/hyprland.nix
   ];
 
   home.username = "diego";
