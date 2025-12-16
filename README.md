@@ -1,7 +1,8 @@
 # ✨ My Dotfiles
-<img width="1920" height="1080" alt="2025-12-10-205530_hyprshot" src="https://github.com/user-attachments/assets/c8821337-0d30-4605-93ae-bec1ac483a8a" /><br>
+<img width="1920" height="1080" alt="2025-12-16-202424_hyprshot" src="https://github.com/user-attachments/assets/1c13cdb2-f103-4cbb-b478-e8173d7b2a52" />
 <br>
-<img width="1920" height="1080" alt="2025-12-10-205535_hyprshot" src="https://github.com/user-attachments/assets/32834d00-2f41-4a78-9338-93dc1d7c8fe0" />
+<br>
+<img width="1920" height="1080" alt="2025-12-16-202433_hyprshot" src="https://github.com/user-attachments/assets/82bc69b3-8928-46d3-a31e-d51316bc36a7" />
 <br>
 <br>
 These are my personal Linux dotfiles, managed with NixOS and Home Manager.  
