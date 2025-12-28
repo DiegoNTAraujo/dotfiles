@@ -19,6 +19,7 @@
     jetbrains.pycharm-community-bin
     goverlay
     vulkan-tools # Goverlay dependency
+    protonup-qt # Utility to manage Proton-GE for Steam
   ];
 
   home.stateVersion = "25.11";
