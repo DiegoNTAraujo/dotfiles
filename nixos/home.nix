@@ -14,6 +14,7 @@
   programs.vscode.enable = true;
   programs.gh.enable = true;
   programs.mangohud.enable = true;
+  xdg.configFile."MangoHud/MangoHud.conf".enable = false;
 
   home.packages = with pkgs; [
     python314
