@@ -9,10 +9,13 @@
   home.homeDirectory = "/home/diego";
 
   programs.firefox.enable = true;
+  stylix.targets.firefox.enable = false;
+
   programs.alacritty.enable = true;
   programs.fastfetch.enable = true;
   programs.vscode.enable = true;
   programs.gh.enable = true;
+  
   programs.mangohud.enable = true;
   xdg.configFile."MangoHud/MangoHud.conf".enable = false;
 
