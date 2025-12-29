@@ -13,22 +13,22 @@
     };
   };
 
-  outputs = inputs@{ self, nixpkgs, home-manager, stylix, ... }: {
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      modules = [
+  outputs = inputs@{ self, nixpkgs, home-manager, stylix, ... }:
+  let
+    system = "x86_64-linux";
+    username = "diego";
+  in {
+    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {    
+      inherit system;
+      modules = [                                           
         ./configuration.nix
-        stylix.nixosModules.stylix
-        home-manager.nixosModules.home-manager {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.users.diego = { 
-            imports = [
-              ./home.nix
-            ];
-          };
-        }
-      ];
+        home-manager.nixosModules.home-manager {             
+          home-manager.useGlobalPkgs = true;                 
+          home-manager.useUserPackages = true;               
+          home-manager.users.${username} = import ./home.nix;
+        }                                                
+        stylix.nixosModules.stylix                          
+      ];                                                    
     };
-  };
-}
+  };                                                     
+}                                                       
