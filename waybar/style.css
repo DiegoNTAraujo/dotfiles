@@ -19,7 +19,8 @@
     opacity: 0.5;
 }
 
-#battery.plugged {
+#battery.plugged,
+#battery.charging {
     color: #9ECE6A;
 }
 
