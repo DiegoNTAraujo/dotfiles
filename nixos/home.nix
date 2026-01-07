@@ -20,7 +20,6 @@
   stylix.targets.mangohud.enable = false;
 
   home.packages = with pkgs; [
-    python314
     goverlay
     vulkan-tools # Goverlay dependency
     protonup-qt # Utility to manage Proton-GE for Steam
