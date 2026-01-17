@@ -1,0 +1,33 @@
+* {
+    font-size: 14px;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 7 Free Solid";
+}
+
+@define-color background #1a1b26;
+@define-color foreground #c0caf5;
+@define-color success #9ece6a;
+@define-color warning #f7768e;
+
+#waybar {
+    background-color: @background;
+    color: @foreground;
+}
+
+#tray,
+#pulseaudio,
+#battery,
+#clock {
+    padding: 0px 10px;
+}
+
+#workspaces button.active {
+    color: @foreground;
+}
+
+#battery.charging, #battery.plugged {
+    color: @success;
+}
+
+#battery.warning {
+    color: @warning;
+}
