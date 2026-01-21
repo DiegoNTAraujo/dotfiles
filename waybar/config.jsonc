@@ -1,0 +1,41 @@
+{
+  "height": 30,
+  "spacing": 10,
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "pulseaudio",
+    "battery"
+  ],
+  "clock": {
+    "interval": 60,
+    "format": "{:%A, %B %d, %Y %I:%M %p}"
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "0% ",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": ["", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "bat": "BAT1",
+    "interval": 60,
+    "states": {
+      "warning": 25
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  }
+}

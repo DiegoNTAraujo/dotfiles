@@ -1,0 +1,40 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 7 Free", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@define-color bg #1a1b26;
+@define-color fg #c0caf5;
+@define-color success #9ece6a;
+@define-color warning #f7768e;
+
+#waybar {
+  background-color: @bg;
+}
+
+#clock,
+#pulseaudio,
+#battery {
+  color: @fg;
+  padding: 0 10px;
+}
+
+#workspaces button {
+  color: @fg;
+  padding: 0 5px;
+  opacity: 0.5;
+}
+
+#workspaces button.active {
+  opacity: 1;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: @success;
+}
+
+#battery.warning {
+  color: @warning;
+}
