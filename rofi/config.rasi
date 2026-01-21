@@ -1,0 +1,72 @@
+@theme "/dev/null"
+
+* {
+  bg: #1a1b26;
+  fg: #c0caf5;
+  success: #9ece6a;
+  warning: #f7768e;
+}
+
+configuration {
+  font: "JetBrainsMono Nerd Font Medium 12";
+  display-drun: "Applications:";
+  show-icons: true;
+}
+
+window {
+  width: 25%;
+  background-color: @bg;
+  border: 2px solid;
+  border-radius: 15;
+  border-color: @fg;
+}
+
+prompt {
+  background-color: @bg;
+  color: @fg;
+  padding: 8 0 0 8;
+}
+
+entry {
+  background-color: @bg;
+  color: @fg;
+  padding: 8 0;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: @bg;
+}
+
+listview {
+  background-color: @bg;
+  lines: 8;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  background-color: @bg;
+}
+
+element {
+  background-color: transparent;
+  color: @fg;
+  padding: 8;
+}
+
+element-text {
+  background-color: transparent;
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+element selected {
+  background-color: @fg;
+  color: @bg;
+}
+
+element-icon {
+  background-color: transparent;
+  size: 18;
+  padding: 0 8 0 0;
+}
