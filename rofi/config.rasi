@@ -56,7 +56,8 @@ element {
 
 element-text {
   background-color: transparent;
-  text-color: inherit;
+  color: inherit;
+  highlight: none;
   vertical-align: 0.5;
 }
 
