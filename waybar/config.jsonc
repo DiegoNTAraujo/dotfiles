@@ -12,7 +12,8 @@
     "memory",
     "temperature",
     "pulseaudio",
-    "battery"
+    "battery",
+    "custom/power-menu"
   ],
   "clock": {
     "interval": 60,
@@ -51,5 +52,10 @@
     },
     "format": "{capacity}% {icon}",
     "format-icons": ["", "", "", "", ""]
+  },
+  "custom/power-menu": {
+    "on-click": ".dotfiles/rofi/power-menu/script.sh",
+    "format": "",
+    "tooltip": false
   }
 }

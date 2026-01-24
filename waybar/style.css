@@ -32,6 +32,11 @@
   opacity: 1;
 }
 
+#custom-power-menu {
+  color: @fg;
+  padding: 0 15px 0 10px;
+}
+
 #battery.charging,
 #battery.plugged {
   color: @success;
