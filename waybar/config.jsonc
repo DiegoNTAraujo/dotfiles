@@ -9,6 +9,7 @@
   ],
   "modules-right": [
     "tray",
+    "memory",
     "temperature",
     "pulseaudio",
     "battery"
@@ -19,6 +20,11 @@
   },
   "tray": {
     "spacing": 10
+  },
+  "memory": {
+    "format": "{used:0.1f}G ",
+    "tooltip-format": "Memory usage: {used:0.1f}G",
+    "interval": 1
   },
   "temperature": {
     "thermal-zone": 10,
