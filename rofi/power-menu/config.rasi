@@ -1,0 +1,9 @@
+@theme ".dotfiles/rofi/config.rasi"
+
+window {
+  width: 10%;
+}
+
+listview {
+	lines: 3;
+}
