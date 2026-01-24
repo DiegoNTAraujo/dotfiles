@@ -29,6 +29,7 @@
   "temperature": {
     "thermal-zone": 10,
     "format": "{temperatureC}°C ",
+    "tooltip-format":"CPU temperature: {temperatureC}°C",
     "interval": 1,
     "warning-threshold": 90
   },
