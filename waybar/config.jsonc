@@ -9,6 +9,7 @@
   ],
   "modules-right": [
     "tray",
+    "temperature",
     "pulseaudio",
     "battery"
   ],
@@ -18,6 +19,12 @@
   },
   "tray": {
     "spacing": 10
+  },
+  "temperature": {
+    "thermal-zone": 10,
+    "format": "{temperatureC}°C ",
+    "interval": 1,
+    "warning-threshold": 90
   },
   "pulseaudio": {
     "format": "{volume}% {icon}",
