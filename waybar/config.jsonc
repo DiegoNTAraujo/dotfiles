@@ -22,7 +22,7 @@
     "spacing": 10
   },
   "temperature": {
-    "thermal-zone": 10,
+    "thermal-zone": 9,
     "format": "{temperatureC}°C ",
     "tooltip-format":"CPU temperature: {temperatureC}°C",
     "interval": 1,
