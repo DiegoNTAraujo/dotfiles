@@ -5,5 +5,5 @@ window {
 }
 
 listview {
-	lines: 3;
+	lines: 4;
 }
