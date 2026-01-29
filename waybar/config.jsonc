@@ -22,7 +22,8 @@
     "spacing": 10
   },
   "temperature": {
-    "thermal-zone": 9,
+    "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
+    "input-filename": "temp1_input",
     "format": "{temperatureC}°C ",
     "tooltip-format":"CPU temperature: {temperatureC}°C",
     "interval": 1,
