@@ -21,6 +21,12 @@
   padding: 0 10px;
 }
 
+#pulseaudio:hover,
+#custom-power-menu:hover {
+  transition: all 0.3s;
+  opacity: 0.5;
+}
+
 #workspaces button {
   color: @fg;
   padding: 0 5px;
