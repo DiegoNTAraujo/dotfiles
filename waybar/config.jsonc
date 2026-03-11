@@ -1,0 +1,57 @@
+{
+  "margin": "10 20 0 20",
+  "spacing": 10,
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "pulseaudio",
+    "battery"
+  ],
+  "hyprland/window": {
+    "max-length": 50
+  },
+  "clock": {
+    "format": "{:%a %d %B %H:%M}",
+    "tooltip": false
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "0% ",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "bat": "BAT1",
+    "states": {
+      "warning": 25
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}
