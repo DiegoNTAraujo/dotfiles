@@ -1,5 +1,5 @@
 configuration {
-  font: "JetBrainsMono Nerd Font Medium 10";
+  font: "JetBrainsMono Nerd Font Bold 10";
   display-drun: "Applications:";
   drun-display-format: "{name}";
   show-icons: true;
