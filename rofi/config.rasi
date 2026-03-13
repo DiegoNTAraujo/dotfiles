@@ -63,7 +63,7 @@ element-text {
 element-icon {
   background-color: transparent;
   padding: 0 10 0 0;
-  size: 14;
+  size: 18;
 }
 
 element selected {
