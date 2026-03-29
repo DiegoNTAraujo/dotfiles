@@ -40,6 +40,7 @@
 
 #tray menuitem {
   padding: 2px;
+  margin: 2px;
 }
 
 #battery.charging,
